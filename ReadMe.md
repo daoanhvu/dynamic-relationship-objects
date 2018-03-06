@@ -6,6 +6,7 @@ This folder contains SQL scripts for creating database and testing the program. 
 
 ## 2. Configure database connection
 The file database.properties contains parameter to make connection to MySql Server, please change these parameters according to your environment.
+    
     *database.host=localhost*
     *database.user=root*
     *database.password=*
@@ -14,6 +15,7 @@ The file database.properties contains parameter to make connection to MySql Serv
 
 ## 3. Run the parser
 Change directory to folder bin, this folder contains executable file parser.jar. Please execute following command:
+    
     ```
     cd bin
     java -jar parser.jar --accessFile=<log_file> --startDate=2017-01-01.00:00:00 --duration=daily --threshold=500
